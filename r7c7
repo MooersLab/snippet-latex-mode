@@ -1,0 +1,40 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: tables
+# --
+% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{${1:Python script to find lost bytes.}}
+\index{${2:copying and pasting code!lost bytes}}
+\label{tab:${3:label}}
+\begin{center}
+    \begin{tabular}{lcccccc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+                         &
+        ${4:LongHeader1} &
+        ${5:LongHeader2} &
+        ${6:LongHeader3} &
+        ${7:LongHeader4} &
+        ${8:LongHeader5} &
+        ${9:LongHeader6}  \\\\
+        \multicolumn{1}{l}{Parameters} &
+        \multicolumn{1}{c}{(${10:unit1})} &
+        \multicolumn{1}{c}{(${11:unit2})} &
+        \multicolumn{1}{c}{(${12:unit3})} &
+        \multicolumn{1}{c}{(${13:unit4})} &
+        \multicolumn{1}{c}{(${14:unit5})} &
+        \multicolumn{1}{c}{(${15:unit6})} \\\\ \midrule
+        ${16:Item1} & ${17:X11} & ${18:X12} & ${19:X13} & ${20:X12} & ${21:X13} & ${22:X13} \\\\
+        ${23:Item2} & ${24:X21} & ${25:X22} & ${26:X23} & ${28:X22} & ${29:X23} & ${30:X23} \\\\
+        ${31:Item3} & ${32:X31} & ${33:X32} & ${34:X33} & ${35:X32} & ${36:X33} & ${37:X33} \\\\
+        ${38:Item4} & ${39:X41} & ${40:X42} & ${41:X43} & ${42:X42} & ${43:X43} & ${44:X43} \\\\
+        ${45:Item5} & ${46:X51} & ${47:X52} & ${48:X53} & ${49:X52} & ${50:X53} & ${51:X53} \\\\
+        ${52:Item5} & ${53:X51} & ${54:X52} & ${55:X53} & ${56:X52} & ${57:X53} & ${58:X53} \\\\
+        ${59:Item6} & ${60:X54} & ${61:X52} & ${62:X53} & ${63:X52} & ${64:X53} & ${65:X53} \\\\
+        \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table (end)
+$0

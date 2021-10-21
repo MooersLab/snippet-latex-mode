@@ -1,0 +1,13 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: codeEnv
+# --
+\begin{code}{} % (fold)
+\label{lst:${1:label}}
+\index{${2:copying and pasting code!lost bytes}}
+\caption{${3:Python script to find lost bytes.}}
+\begin{minted}[frame=lines,framerule=2pt]{python}
+${4:code listing}
+\end{minted}
+\end{code}
+% listing (end)
+$0

@@ -1,0 +1,11 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: enumeratedList
+# --
+\begin{enumerate} % (fold)
+\item ${1:change me}
+\item ${2:change me}
+\item ${3:change me}
+\end{enumerate}
+% e3 (end)
+$0

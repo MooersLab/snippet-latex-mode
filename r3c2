@@ -1,0 +1,26 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# 3 rows by 2 columns
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: tables
+# --
+% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{${1:Python script to find lost bytes.}}
+\index{${2:copying and pasting code!lost bytes}}
+\label{tab:${3:label}}
+\begin{center}
+    \begin{tabular}{lc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+						&
+        ${5:LongHeader2} \\\\
+        \multicolumn{1}{c}{Parameters} &
+        \multicolumn{1}{c}{(${7:unit1})} \\\\ \midrule
+        ${10:Item1}   & ${13:X11} \\\\
+        ${11:Item2}   & ${14:X21} \\\\
+        ${12:Item3}   & ${15:X31}  \\\\ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table (end)
+$0

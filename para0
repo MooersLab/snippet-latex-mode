@@ -1,0 +1,10 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: sections
+# --
+\paragraph{${1:paragraph name}} % (fold)
+\label{para:${1:$(camelize yas-text)}}
+\index{$1}}
+${2:Start here}
+% paragraph $1 (end)
+$0

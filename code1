@@ -1,0 +1,16 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: codeEnv
+# --
+% Line numbering on and aligned with left margin. 
+\begin{code}{}
+\index{${1:openCV}!${2:measureSizes}}
+\label{lst:${3:measureSize}}
+\caption{${4:Contents of measureSizes.py.}}
+\inputminted[frame=lines,
+               framerule=2pt,
+               linenos=true,
+               xleftmargin=\parindent,
+               breaklines]{python}{${5:./Content/codeListings/test.py}}
+\end{minted}
+\end{code}
+$0

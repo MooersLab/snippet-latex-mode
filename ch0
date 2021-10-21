@@ -1,0 +1,8 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+\chapter{${1:chapter name}} % (fold)
+\label{ch:${1:chapter name}}
+\index{${1:chapter name}}
+${2:Start here}
+% chapter (end)
+$0

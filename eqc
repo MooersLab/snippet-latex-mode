@@ -1,0 +1,13 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+% \usepackage{caption};
+%\DeclareCaptionType{eqc}[][]
+%%\captionsetup[eqc]{labelformat=empty}
+\label{eq:${1:nameOfEquation}} % (fold)
+\index{${2:nameOfEquation}}
+\begin{eqc}
+${3:enter equation here}
+\caption{${4:Caption of the equation}}
+\end{eqc}
+% eqc (end)
+${0}

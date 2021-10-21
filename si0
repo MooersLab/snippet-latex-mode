@@ -1,0 +1,10 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: sections
+# --
+\subsection{${1:subsection name}} % (fold)
+\label{sub:${1:$(camelize yas-text)}}
+\index{${1:$(indexize yas-text)}}
+${2:Start here}
+% subsection $1 (end)
+$0

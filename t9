@@ -1,0 +1,16 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: todoList
+# --
+\begin{todolist} % (fold)
+\item ${1:change me}
+\item ${2:change me}
+\item ${3:change me}
+\item ${4:change me}
+\item ${5:change me}
+\item ${6:change me}
+\item ${7:change me}
+\item ${8:change me}
+\item ${9:change me}
+\end{todolist}
+% i4 (end)
+$0

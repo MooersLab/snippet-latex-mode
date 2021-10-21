@@ -1,0 +1,12 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+\begin{figure}[htp] % (fold)
+\label{fig:${1:DataVisualizationMindMap}}
+\index{${2:Andrew plots}}
+\begin{center}
+\includegraphics[scale=0.6]{./Content/Figures/${3:AndrewPlots.png}}
+\caption{${4:Andrew plots}.}
+\end{center}
+\end{figure}
+% fig: (end)
+$0

@@ -1,0 +1,10 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+% \newcommand{\instructions}[1]{}
+% % Before submitting, comment out this line.
+% \renewcommand{\instructions}[1]{{\scriptsize \sc #1}}
+\begin{instructions} % (fold)
+${1:enter instructions here}
+\end{instructions}
+% instructions (end)
+$0

@@ -1,0 +1,27 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: tables
+# --
+% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{${1:Python script to find lost bytes.}}
+\index{${2:copying and pasting code!lost bytes}}
+\label{tab:${3:label}}
+\begin{center}
+    \begin{tabular}{lcc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+						&
+        ${5:LongHeader2} &
+        ${6:LongHeader3} \\\\
+        \multicolumn{1}{c}{Parameters} &
+        \multicolumn{1}{c}{(${7:unit1})} &
+        \multicolumn{1}{c}{(${8:unit2})} \\\\ \midrule
+        ${10:Item1}   & ${11:X11}  & ${12:X12} \\\\
+        ${11:Item2}   & ${11:X21}  & ${12:X22} \\\\
+        ${12:Item3}   & ${11:X31}  & ${12:X32}  \\\\ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table (end)
+$0

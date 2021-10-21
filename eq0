@@ -1,0 +1,9 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+\label{eq:${1:nameOfEquation}} % (fold)
+\index{${2:nameOfEquation}}
+\begin{equation}
+${3:enter equation here}
+\end{equation}
+% equation (end)
+${0}

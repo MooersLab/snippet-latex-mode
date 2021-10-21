@@ -1,0 +1,67 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+% !TEX TS-program = pdflatex
+
+% Control-shift-N in TextMate gives the word count
+\documentclass[10pt]{article}
+\usepackage{hyperref}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+\usepackage[stable]{footmisc}
+\usepackage{graphicx}
+\usepackage{url}               % may be used in bibliography
+\usepackage{booktabs}
+
+% for minted code with captions
+\usepackage{minted}
+\usepackage{caption}
+\usepackage{capt-of}
+\usepackage{mdframed}
+\usepackage{gensymb}
+\newenvironment{code}{\captionsetup{type=listing}}{}
+
+\parskip 1.25ex
+\parindent 0ex
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{
+\subsection{Last night} % (fold)
+${1:Last night,}
+% subsection last_night (end)
+}
+
+
+\subsection{This morning} % (fold)
+${2:I woke at }
+
+% subsection this_morning (end)
+
+\subsection{TBD} % (fold)
+
+\begin{itemize}
+	\item ${3:do this }
+	\item ${4:do this }
+\end{itemize}
+% subsection TBD (end)
+
+$0
+
+\subsection{Grasscatcher List} % (fold)
+
+\begin{itemize}
+	\item
+\end{itemize}
+% subsection grasscatcher_list (end)
+
+\subsection{Evening tasks } % (fold)
+
+\begin{itemize}
+	\item
+	\item \LARGE{Paste into 750words and Overlaef!}
+\end{itemize}
+% subsection evening_tasks (end)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
