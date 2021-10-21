@@ -1,5 +1,8 @@
+# -*- mode: snippet -*-
 # contributor: Blaine Mooers bmooers1@gmail.com
 # group: codeEnv
+# name: code4
+# key: code4 
 # --
 \iffalse
 \begin{code}{}  % (fold)
