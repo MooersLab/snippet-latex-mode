@@ -1,6 +1,11 @@
+# -*- mode: snippet -*-
 # contributor: Blaine Mooers bmooers1@gmail.com
 # group: todoList
+# name: todo list with 10 items
+# key: t10 
 # --
+%
+
 \begin{todolist} % (fold)
 \item ${1:change me}
 \item ${2:change me}
