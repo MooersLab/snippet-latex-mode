@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: todoList
+# name: create todolist env
+# key: todoenv
+# --
+%
+% add to preamble
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
