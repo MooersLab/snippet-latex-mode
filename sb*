@@ -1,0 +1,9 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: subsections
+# key: sb*
+# name: unnumbered subsection
+# --
+\subsection*{${1:subsection name}}
+${2:Start here}
+$0
