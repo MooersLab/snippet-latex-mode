@@ -1,0 +1,14 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: subsubsections
+# key: accom
+# name: list of accomplishments subsubsection
+# --
+\subsubsection{Accomplishments}
+% CNTL-TAB to fold or unfold
+% M-S-RET to create new item
+\begin{itemize}
+\item ${1:Start here}
+\item ${2:change me}
+\item ${3:change me}
+\end{itemize}
