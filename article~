@@ -1,0 +1,73 @@
+# -*- mode: snippet -*-
+# name: article
+# key: article
+# --
+\documentclass{article}
+
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+\usepackage[english]{babel}
+\usepackage{minted}
+\usepackage{caption}
+\usepackage{capt-of}
+\usepackage{mdframed}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\newenvironment{code}{\captionsetup{type=listing}}{}
+\usepackage[parfill]{parskip} % add blank line between paragraphs
+\usepackage{array} % Needed for controlling the wide of tables
+\usepackage{booktabs} % Needed for fancy tables
+
+\usepackage[authoryear,round]{natbib}
+\bibliographystyle{cell}
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[normalem]{ulem} % enables strikethrough with \sout
+\usepackage{scrextend}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\usepackage{float}
+\floatstyle{plain}
+\usepackage{url}
+\urlstyle{sf}
+
+%To make equations in floats so that they can have captions.
+% Use the eqfloat environment with the 
+% caption inside of the env.
+% source:  https://stackoverflow.com/questions/149479/adding-a-caption-to-an-equation-in-latex
+\usepackage{float}
+\usepackage{aliascnt}
+\newaliascnt{eqfloat}{equation}
+\newfloat{eqfloat}{h}{eqflts}
+\floatname{eqfloat}{Equation}
+\newcommand*{\ORGeqfloat}{}
+\let\ORGeqfloat\eqfloat
+\def\eqfloat{%
+  \let\ORIGINALcaption\caption
+  \def\caption{%
+    \addtocounter{equation}{-1}%
+    \ORIGINALcaption
+  }%
+  \ORGeqfloat
+}
+
+
+
+\title{$1:{Change this title}}
+\author{Blaine Mooers}
+\date{\today}
+
+
+\begin{document}
+
+$:{0}
+
+
+\end{document}
+

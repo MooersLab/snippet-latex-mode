@@ -1,0 +1,37 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: overleafLogFiles
+# key: writingLogMissingPreamble
+# name: Writing log for writing projects on Overleaf: missing premable parts.
+
+% Code for plotting table 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+
+\pgfplotstableset{% global config, for example in the preamble
+  every head row/.style={before row=\toprule,after row=\midrule},
+  every last row/.style={after row=\bottomrule},
+  fixed,precision=2,
+}
+
+\makeindex
+
+% todolist env from https://tex.stackexchange.com/questions/247681/how-to-create-checkbox-todo-list
+% done with checkmark, wontfix with x, next with finger.
+% Use square brackets around the commands: e.g., [\next]
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\nmark}{\ding{42}}% next
+\newcommand{\cmark}{\ding{51}}% checkmark
+\newcommand{\xmark}{\ding{55}}% x-mark
+\newcommand{\wmark}{\ding{116}}% wait mark, inverted triangle representing yield sign
+
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+\newcommand{\waiting}{\rlap{\raisebox{0.18ex}{\hspace{0.17ex}\scriptsize \wmark}}$\square$}
+% \newcommand{\next}{\nmark}%

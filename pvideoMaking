@@ -1,0 +1,21 @@
+# group: protocols
+# key: videoMaking
+# name: Protocol for making video with open source software.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+% !TEX TS-program = pdflatex -shell-escape
+% Cmd-R in TextMate compiles
+% Control-shift-N in TextMate gives the word count
+% C-c C-a compiles and opens PDF in Emacs
+% C-c C-l in emacs reveals the error messages when compiling fails.
+
+\section{Video Making for Conferences or YouTube}
+
+\begin{itemize}
+\item Rehearse talk 10 times at least to reduce time consuming editing latter on.
+\item Remove background from webcam image see \url{https://www.youtube.com/watch?v=9iEjxM2SF6o}
+\item Record talk with OBS or in Zoom.
+\item Convert video to mp4 in OBS
+\item Edit video in Blender.
+\item Transsfer video via secure file transfer.
+\end{itemize}

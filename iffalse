@@ -1,0 +1,9 @@
+# group: comments
+# key: iffalse
+# name: Use iffalse and fi to comment out a section of text.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+\iffalse
+${1:Insert block to be commented out}
+\fi
+$0

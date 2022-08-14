@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: minted
+# name: minted environment. See code0, code1, and so on
+# --
+\index{$1}
+\begin{minted}{${3:python}}
+${2:paste here}
+\end{minted}
+$0

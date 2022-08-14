@@ -1,0 +1,135 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: overleafLogFiles
+# key: writingLogBookMissing
+# name: Missing parts of the Writing log for writing projects on Overleaf .
+
+
+% Insert between start of document and exiting writing log.
+
+\section{Why am I writing this paper?}
+
+What is the rationale for writing this paper?
+
+${2:To help advance the field. To help win or renew a grant.}
+
+
+\section{{Related projects}
+
+\begin{itemize}
+\item ${3:change me}
+\item ${4:change me}
+\item ${5:change me}
+\item ${6:change me}
+\end{itemize}
+
+
+
+
+\section{Potential Publishers}
+
+\begin{itemize}
+\item Nature Methods (possible if I focus on supporting Jupyter and Colab and making forms for Colab Notebooks)
+\item 
+\end{itemize}
+
+
+\section{Potential Titles}
+
+\begin{itemize}
+\item ${7:change me}
+\item ${8:change me}
+\item ${9:change me}
+\item ${10:change me}
+\end{itemize}
+
+\section{Potential Keywords}
+
+\begin{itemize}
+\item ${11:change me}
+\item ${12:change me}
+\item ${13:change me}
+\item ${14:change me}
+\item ${15:change me}
+\item ${16:change me}
+\item ${17:change me}
+\item ${18:change me}
+\item ${19:change me}
+\item ${20:change me}
+\end{itemize}
+
+
+\section{Potential Internal Reviewers}
+
+\begin{itemize}
+\item ${21:change me}
+\item ${22:change me}
+\item ${23:change me}
+\item ${24:change me}
+\item ${25:change me}
+\end{itemize}
+
+
+\section{Potential External Reviewers}
+
+\begin{itemize}
+\item ${26:change me}
+\item ${27:change me}
+\item ${28:change me}
+\item ${29:change me}
+\item ${30:change me}
+\item ${31:change me}
+\item ${32:change me}
+\item ${33:change me}
+\item ${34:change me}
+\item ${35:change me}
+\item ${36:change me}
+\item ${37:change me}
+\item ${38:change me}
+\item ${39:change me}
+\item ${40:change me}
+\end{itemize}
+
+
+\section{Potential Competitors}
+
+\begin{itemize}
+\item ${41:change me}
+\item ${42:change me}
+\item ${43:change me}
+\item ${44:change me}
+\item ${45:change me}
+\end{itemize}
+
+
+
+\section{Potential Collaborators}
+
+\begin{itemize}
+\item ${46:change me}
+\item ${47:change me}
+\item ${48:change me}
+\item ${49:change me}
+\item ${50:change me}
+\end{itemize}
+
+
+\section{Related Grant Application Specific Aims}
+
+\begin{itemize}
+\item ${51:change me}
+\item ${52:change me}
+\item ${53:change me}
+\item ${54:change me}
+\item ${55:change me}
+\end{itemize}
+
+
+
+
+\section{Draft Introduction}
+
+
+
+\section{Draft Abstract}
+
+

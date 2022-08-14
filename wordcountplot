@@ -1,0 +1,30 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: effort
+# key: wordcountplot
+# name: Plot word counts stored in external file wordcount.txt vand make a corresponding table.
+# --
+\begin{figure}[htp!]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Date},
+    ylabel={Word Count Cumulative},
+%    legend pos=south east,
+ %   legend entries={},
+    ]
+  \addplot table [x=Day,y=Words] {wordcount.txt};
+ \end{axis}
+\end{tikzpicture}
+\end{figure}
+
+\begin{table}[]
+    \centering
+\pgfplotstabletypeset[
+  columns/Date/.style={column name=Date},
+  columns/Day/.style={column name=Day},
+  columns/Word/.style={column name=Words},
+]{wordcount.txt}
+    \caption{Date, day and wordcount.}
+    \label{tab:my_label}
+\end{table}
+$0

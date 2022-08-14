@@ -1,0 +1,11 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# group: comments
+# key: comment
+# name: comment env. Requires the comment package.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+%\usepackage{comment}
+\begin{comment}
+${1:Insert section to be commented out.}
+\end{comment}
+$0

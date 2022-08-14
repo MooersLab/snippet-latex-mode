@@ -1,13 +1,19 @@
 # This was cloned from a TextMate bundle for yasnippet.
+# group: equations
+# key: eqc
+# name: equation float with a caption
+# contributor: Blaine Mooers bmooers1@gmail.com
 # --
 % \usepackage{caption};
-%\DeclareCaptionType{eqc}[][]
-%%\captionsetup[eqc]{labelformat=empty}
+% \DeclareCaptionType{eqc}[][]
+% %\captionsetup[eqc]{labelformat=empty}
 \label{eq:${1:nameOfEquation}} % (fold)
 \index{${2:nameOfEquation}}
 \begin{eqc}
+\begin{equation}
 ${3:enter equation here}
+\end{equation}
 \caption{${4:Caption of the equation}}
 \end{eqc}
 % eqc (end)
-${0}
+$0

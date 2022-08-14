@@ -1,0 +1,7 @@
+# group: ManuscriptReviews
+# key: pOverSelfCitation
+# name: Add PDBid to figure legend.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+The authors cite examples of their implementations of methods in other papers that were not methods development papers. This is not necessary for reproducing the results. This leads to excessive self-citation.
+$0

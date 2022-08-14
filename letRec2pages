@@ -1,0 +1,129 @@
+# group: letters
+# key: letOfRec2pages
+# name: Letter of recommendation on more than one page.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+% !TEX TS-program = pdflatex -shell-escape
+% Cmd-R in TextMate compiles
+% Control-shift-N in TextMate gives the word count
+% C-c C-a compiles and opens PDF in Emacs
+% C-c C-l in emacs reveals the error messages when compiling fails.
+\documentclass[letterpaper,11pt]{letter}
+\usepackage{graphicx, fullpage}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=0.95in]{geometry}
+\pagenumbering{gobble}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{  \includegraphics[scale=0.65]{BSCletterHead.png}  }
+
+%\cfoot{  (\includegraphics [width=\textwidth] {foot.png})  }
+ \definecolor{crimson}{RGB}{220,20,60}
+\cfoot{  \small \color{crimson}Biomedical Research Center, Room 466, 975 NE 10th St, Oklahoma City, Oklahoma 73104 \\
+Office:  (405) 271-8300  Lab:   (405) 271-8313  FAX:  (405) 271-3910 \\
+blaine-mooers@ouhsc.edu   \\
+http://www.oumedicine.com/department-of-biochemistry-and-molecular-biology}
+% Some of the article customisations are relevant for this class
+
+% Alternatively, these may be set on an individual basis within each letter environment.
+%  end of preamble
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\footrule}{\color{crimson}}
+\def\mydoubleq#1{``#1''}
+\def\mysingleq#1{`#1'}
+
+\headheight 150pt              %% put this outside
+\headsep 5pt                 %% put this outside
+\textheight 545pt
+\begin{document}
+\begin{letter}
+\\
+Department of Biochemistry and Molecular Pharmacology\\
+University of Massachusetts Medical School\\
+Worcester, Massachusetts 01605
+
+December 30, 2020\\
+\\
+Dear Search Committee,\\
+\\
+\textbf{RE: Reference Letter to University of Massachusetts for Dr. Ralf G. Janknecht.}\\
+I write in support of the application of Dr. Ralf Janknecht for the open tenured position in your faculty.
+I have known Dr. Janknecht since he arrived at OUHSC in 2009.
+Our laboratories are about 50 paces apart and on the same floor.
+We have collaborated on the JMJD4 project for several years and meet almost weekly.
+We also both attend the monthly Cancer Biology group meetings, which he lead for several years.
+Thus, I feel qualified to comment on his qualifications.
+
+Dr. Janknecht has an impressive track-record of peer-reviewed publications.
+These have been in the fields of gene regulation and cancer research.
+He is first or senior author on many papers in journals like the highly regarded \emph{Journal of Clinical Investigation}, \emph{EMBO Journal}, \emph{Molecular and Cellular Biology}, \emph{Oncogene}, and \emph{Cancer Research}. 
+
+His research program is focused but also agile.
+He is open to adopting new techniques after careful analysis of their strengths and weaknesses.
+I have often found him in his lab at the bench testing a new method.
+This is unusual for a full professor.
+He is manages to free up time for labwork by being very organized and efficient with his writing tasks and administrative duties. 
+
+Dr. Janknecht is always willing to share his expertise in a friendly manner.
+His openness has benefited many principal investigators.
+He has collaborated with other faculty within and outside our institution.
+His collaborations resulted in him serving many times as co-author on papers in journals like \emph{Journal of Biological Chemistry} and \emph{Proceedings of the National Academy of Sciences}. 
+
+One of these collaborations involves the JMJD4 protein with my laboratory. 
+His laboratory has created a JMJD4 knock-out mouse.
+The Janknecht lab has since obtained \emph{in vivo} evidence that JMJD4 acts like an oncoprotein.
+JMJD4 is an enzyme, so Dr. Janknecht thought about developing small molecule inhibitors that target JMJD4.
+This is when he approached my lab. 
+
+
+We are experienced in determining X-ray crystal structures of proteins. 
+We are also adept in modeling protein structures and docking small molecules to them. 
+We have identified small molecules that potentially inhibit JMJD4 activity. 
+Dr. Janknecht, Dr. Burgett (a medicinal chemist), and myself have collaborated on developing inhibitors for JMJD4 and on determining the structure of JMJD4. 
+We have been able to acquire several local grants to support this research.
+Our goal is to  apply for federal funding (NIH, DOD) by submitting multi-PI grants.
+This project demonstrates the willingness of Dr. Janknecht to pursue common goals.
+
+\newpage
+\thispagestyle{plain}
+\headheight 40pt              %% put this outside
+\textheight 745pt
+Dr. Janknecht is also a dedicated teacher.
+He currently teaches incoming graduate students, medical students, and allied health students.
+His teaching load is more than that of most other research-focused faculty at OUHSC.
+Dr. Janknecht has mentored several undergraduate students, graduate students, postdoctoral fellows, and faculty.
+These activities attest to Dr. Janknecht’s dedication to training the next generation of scientists.
+
+
+In addition, Dr. Janknecht has a record of outstanding service to our institution.
+He is the Chair of the time-consuming Institutional Biosafety Committee.
+He has also been a leader of the Cancer Biology Program, of which I have been a member.
+Thus, I have first-hand experience with his energetic, enthusiastic, effective, and impartial leadership.
+This leadership position is not easy because this is a diverse group of scientists.
+He leveraged several small grants to support exciting research projects.
+Many of these projects eventually were awarded federal funding.
+He also serves regularly on the study sections for several local grant programs.
+At the national level, Dr. Janknecht has served as a reviewer on many DOD and NIH study sections.
+
+Dr. Janknecht has proven to be a very productive and successful researcher. 
+He is also a highly respected and cooperative colleague. 
+I predict that he will be an outstanding contributor in your department and university. 
+I wish that I had more colleagues like him. 
+I will be happy to discuss further by phone the qualifications of Dr. Janknecht.
+
+{Best regards,} \\
+{\includegraphics[width=70mm]{signature.png}}\\ 
+ {Blaine H. M. Mooers, PhD, \\
+ Associate Professor of Biochemistry and Molecular Biology\\
+ Member, Stepheson Cancer Center\\
+ Director, Biomolecular Structure Core-OKC\\
+ Director, Laboratory of Biomolecular Structure and Function\\
+ Member (chair 2016-2017), Stanford Synchrotron Radiation Lightsource Users Executive Committee
+ }
+%\cc{Josh Packard} % people this letter is cc-ed to
+%\encl{} % list of anything enclosed
+%\ps{} % any post scriptums. ``PS'' labels must be put in manually
+\end{letter}
+\end{document}

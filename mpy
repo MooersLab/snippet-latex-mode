@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: mpy
+# name: Simple minted environment for Python. See code0, code1, and so on
+# --
+\index{$2}
+\begin{minted}{python}
+${1:paste here}
+\end{minted}
+$0

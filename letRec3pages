@@ -1,0 +1,191 @@
+# group: letters
+# key: letRec3pages
+# name: Letter of recommendation on three pages.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+% !TEX TS-program = pdflatex -shell-escape
+% Cmd-R in TextMate compiles
+% Control-shift-N in TextMate gives the word count
+% C-c C-a compiles and opens PDF in Emacs
+% C-c C-l in emacs reveals the error messages when compiling fails.
+\documentclass[letterpaper,11pt]{letter}
+\usepackage{graphicx, fullpage}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{  \includegraphics[scale=0.79]{~/images/depthead.png}  }
+
+% \cfoot{  (\includegraphics [width=\textwidth] {~/images/foot.png})  }
+\definecolor{crimson}{RGB}{220,20,60}
+\cfoot{  \small \color{crimson}Biomedical Research Center, Room 466, 975 NE 10th St, Oklahoma City, Oklahoma 73104 \
+  Office:  (405) 271-8300  Lab:   (405) 271-8313  FAX:  (405) 271-3910 \
+  blaine-mooers@ouhsc.edu   \
+  http://www.oumedicine.com/department-of-biochemistry-and-molecular-biology}
+% Some of the article customisations are relevant for this class
+
+% Alternatively, these may be set on an individual basis within each letter environment.
+% end of preamble
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\footrule}{\color{crimson}}
+\headheight 100pt              %% put this outside
+\headsep 10pt                 %% put this outside
+\textheight 560pt
+\begin{document}
+\begin{letter}
+\\
+\today
+
+Ian A. Wilson, D. Phil., D.Sc., FR\\
+Professor \& Chair\\
+Dept of Integrative Structural and Computational Biology\\
+The Scripps Research Institute\\
+10550 No. Torrey Pines Road, BCC206\\
+La Jolla, CA 92037\\
+\\
+RE: Letter of recommendation for Mr. Francis Acquah
+
+Dear Dr. Wilson,
+
+It is my pleasure to respond to your request for information about Mr. Francis Acquah.
+As you may know, Francis graduated from the University of Science and Technology in Ghana with a BS in Pharmacy.
+He was recruited from Ghana to OUHSC through our selective Graduate Program in Biomedical Sciences (GPiBS).
+This program is an exclusive doctoral graduate program for students from six basic science departments.
+The students take four courses as a group in the first semester, and then they split up to take five-week special-interest courses in the spring semester.
+Meanwhile, they do lab rotations throughout the first year.
+
+Francis did a rotation in my lab.
+His career goal was to work in the pharmaceutical industry.
+He decided to join my lab because he was interested in structure-based drug design.
+I had published several papers about crystal structures of biomolecular-drug complexes, and I was giving for the first time a five-week hands-on course on structure-based drug design that he was taking.
+
+In this course, I guided students with no background in computing in the use of MGLTools on their personal computers to prepare crystal structures of their choosing to serve as templates for drug docking.
+I arranged for them to get accounts on the University of Oklahoma's supercomputer.
+They then ran autodock vina via ssh to screen a large chemical library.
+They used Python to sort the results and extract the poses of the lead compounds.
+Then they did MD simulations with GROMACS on one of the lead complexes.
+One student claimed that this was the best course he had ever taken.
+Francis helped the students in the second and final year that I was able to offer this course.
+
+Francis's rotation project involved crystal size optimization experiments of RNA from trypanosomes.
+We were applying a more advanced version of Charles Carter Jr.'s response surface method (RSM) approach to designing crystal optimization experiments.
+Charles is a co-author on a manuscript that we have in preparation about software that we have developed to ease the application of RSM.
+Francis gathered quantitative data to evaluate the results of these experiments.
+
+Concurrent with Francis joining my lab, my organic chemist collaborator, Dr. Syed Hussaini, at the U of Tulsa won a state-funded grant.
+As a co-investigator on this grant, my lab was to do in-silico screening of an extensive library of indolizidine derivatives as inhibitors of a nicotinic acetylcholine receptor.
+Francis took on this project and owned it.
+
+\newpage
+\pagestyle{plain}
+\headheight 30pt              %% put this outside
+\textheight 790pt
+%\enlargethispage
+%\footheight 20pt
+
+Francis was highly self-reliant.
+He had mastered several dozen bash commands that I had taught him, but he had no other formal training in programming.
+He installed a lot of software on a Centos operating system on his own.
+He did not have a senior graduate student or post-doc to lean on.
+At the time, I had a senior technician in the lab who had minimal computing skills, a staff crystallographer for the core facility that I direct whose computing skills were limited to XDS, CCP4, and COOT.
+He only came to me with a problem if it was a serious impasse that he could not overcome after several days of effort.
+
+Francis screened his top leads with molecular dynamics simulations with the receptor embedded in a lipid bilayer.
+I won a small local grant to build a workstation with several GPUs, but this computer did not provide enough computing power to meet Francis's needs.
+Francis had to finish these computations on supercomputers at the University of Oklahoma and Oklahoma State University.
+We submitted and published this work from my lab last summer with Francis as the first author.
+He wrote the first draft with minimal guidance from me.
+It did not require heavy editing.
+Francis's writing skills are above-average.
+He remains on top of the relevant literature.
+He has often already read the papers that I have recently found and recommended.
+
+His dissertation project is based on a NIH-style proposal that he wrote for his preliminary exam in his second year.
+He wanted to find inhibitors of RNA editing in the mitochondria of trypanosomes.
+Francis screened a quarter million compounds in silico against crystal structures of RNA duplexes from my lab.
+He did MD simulations of the RNA drug complexes.
+We bought several of the lead compounds, and he has characterized the binding thermodynamics by microscale thermophoresis.
+The latter studies have been done under the supervision of Dr. Frank Hays, who is also on Francis's dissertation committee.
+Frank vouches that Francis has good hands at the bench.
+The lead compounds have proven experimentally to have nanomolar binding affinities.
+While others have targeted RNA editing enzymes, this will be the first structure-based targetting of the RNA, which directs the editing machinery.
+
+My staff crystallographer retired last January, and I have been slow to refill this position due to a succession of hiring freezes and job candidates waiting to hear about the fate of our COBRE Phase III application, which is still pending.
+Francis took on some of this scientist's unfinished work.
+One project required overexpressing and purifying four constructs of a transcription factor mutant implicated in brain cancer.
+This is part of a funded collaborative project with the Ian Dunn Lab at OUSHC.
+Francis managed to grow some crystals with and without DNA, but he did not have enough crystals for us to optimize the cryo conditions before our last beam time at SSRL in February.
+Nonetheless, Francis's recombinant proteins were used in in vitro studies by the Dunn lab.
+A manuscript about this work is in preparation with Francis as a co-author.
+
+Francis has experienced a rich environment for structural biology thanks to \$20 million in funding over the past ten years for the COBRE in Structural Biology that is lead by Dr. Ann West at OU-Norman.
+Ann has organized and led superb day-long symposia about structural biology each summer.
+She has been able to bring to Norman leading structural biologists from around the world.
+This meeting is always oversubscribed and has 120 participants.
+Francis has presented posters about his research at each symposium.
+
+To provide a forum for scientists who use Python in their research to share their insights,
+I started a Python Workshop three years ago.
+We already have a statistical computing workshop that is R-centric and oriented towards clinical biostatisticians.
+
+Due to the pandemic, the Python Workshop transitioned 15 months ago from being in person and local to being virtual and regional.
+We also rebranded it as the Data Science Workshop.
+We won funding for a year from NIH/NIA.
+Investigators from eight institutions participate.
+We have 200 people on our mailing list.
+The seminars are currently focused on the FAIR principles and reproducible research.
+Francis has attended all of the seminars and has explored and incorporated some of the approaches into his workflow.
+Francis gave a talk in this seminar series last October about using rdkit and machine learning to do various chemometric tasks in Jupyter notebooks.
+
+Francis successfully mentored two undergraduates in his first summer in my lab and three in his second summer.
+These students worked on extending his rotation project.
+Three of the students had the opportunity to present their research on posters in local research symposia.
+He mentored them in data analysis, figure making, poster assembly, and talk rehearsals.
+We have not had summer students during the past two summers due to the pandemic.
+Our lab shut down for five weeks in April and early May 2020.
+Our work was otherwise not heavily impacted by the pandemic.
+By taking prudent precautions, Francis and I have managed to not get infected.
+
+Francis is very popular with our graduate students and faculty.
+He is a very patient listener.
+People enjoy talking to him.
+He is very humble and reflective.
+I have never heard him boast.
+He never had any conflicts with lab members, students outside of the lab, or with other faculty members.
+I have a modest amount of lab space; he did well when summer students crowded the lab.
+He prefers to be around people over being isolated.
+
+Francis is active in his church.
+However, he keeps his religious and political opinions to himself.
+He has never been insubordinate.
+I have no evidence of him lying or fudging data.
+He has outstanding morals and impeccable integrity.
+
+Francis has progressed from being an insecure rotation student to a competent and confident scientist.
+He is the first author on the published nicotinic acetylcholine receptor research paper and will be the first author on the research paper about the RNA-drug interactions from his dissertation.
+He is the first author of a review article (under revision) about the crystallization of RNA-drug complexes; this review is the first on this topic.
+He is a secondary author of a published review about the engineering of RNA for crystallization that was published last fall.
+He will be a secondary author of a second paper with the Hussaini lab and of a paper with Dunn lab that we will submit shortly; he has completed his parts of these papers.
+Francis should have three first authorships and at least three secondary authorship papers published by the end of this calendar year.
+He will be the second author on the above-mentioned RSM paper that will be submitted later this year.
+I anticipate that the achievements of Francis's career to exceed those of mine.
+
+{Best regards,} \\
+{\includegraphics[width=70mm]{~/images/signature.png}}\\
+{Blaine H. M. Mooers, PhD, \\
+Associate Professor of Biochemistry and Molecular Biology\\
+Acadmeic Director of the COBRE Biomolecular Core\\
+Director of the Laboratory of Biomolecular Structure and Function\\
+Member of the Stephenson Cancer Center}
+\end{letter}
+\end{document}
+
+
+
+%academic background, scientific
+%achievements and qualities as a researcher and as a person, including how he gets on with
+%people. Any comments that you could provide concerning past and current research (originality,
+%quality, impact) would also be very helpful.
+

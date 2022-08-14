@@ -1,0 +1,143 @@
+# group: articles
+# key: prosci
+# name: Manuscript template for submission to Protein Science.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+% !TEX TS-program = pdflatex -shell-escape
+% Cmd-R in TextMate compiles
+% Control-shift-N in TextMate gives the word count
+% C-c C-a compiles and opens PDF in Emacs
+% C-c C-l in emacs reveals the error messages when compiling fails.
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{}
+\usepackage{graphicx}
+% compiles with pdflatex 
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{caption}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipsnames]{xcolor}
+\newlength\myboxwidth
+\setlength{\myboxwidth}{\dimexpr\textwidth-2\fboxsep}
+
+%page numbers upper right
+\pagestyle{myheadings}
+
+% Remove comment for double spacing.
+% Comment out to restore single spacing. 
+\usepackage{setspace} 
+\doublespacing
+
+% Use the Protein Science BiBTeX style.
+\bibliographystyle{cell}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+\begin{document}
+
+\vspace*{0.2in}
+\begin{center}
+  
+% Title must be 250 characters or less.
+% Please use "title case" (capitalize all terms in the title except conjunctions, prepositions, and articles).
+{\Large ${1: Memorable not longer than one line and without using a colon}}
+\bigskip
+\\\\
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
+Blaine H. M. Mooers\textsuperscript{1,2,3*} And Francis Acquah\textsuperscript{1}\\\\
+\bigskip
+$^\textbf{1}$Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma, United States
+\\\\
+$^\textbf{2}$Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma, United States
+\\\\
+$^\textbf{3}$Laboratory of Biomolecular Structure and Function, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma, USA\\\\
+\bigskip
+Phone: 405-271-8300\\\\
+FAX:   405-271-3092\\\\
+e-mail: blaine-mooers@ouhsc.edu\\\\
+\vspace*{1\baselineskip}
+%\today
+\end{center}
+\bigskip
+\bigskip
+\bigskip
+\noindent \textbf{Keywords:} ${2: insert keywords that are not in the title nor the abstract}
+\\\\
+\bigskip
+\\\\
+\textbf{Abbreviations:} ${5: GUI: graphical user interface, IDE: integrated development environment} 
+
+\newpage
+
+
+\section*{Abstract}
+
+${4: This is a test in Emacs.}
+
+
+
+\section*{Introduction}
+${3:Start here}
+
+
+
+\section*{Materials and Methods}
+
+
+
+\section*{Results}
+
+
+\section*{Discussion}
+
+
+\newpage
+\section*{References}
+%\bibliography{./global.bib}
+
+
+
+\newpage
+
+\section*{Figures}
+
+\begin{figure}[ht]
+%\includegraphics[scale=.45]{./Figures/basicPairPlots.png}
+\centering
+\caption{Pithy caption.}
+\end{figure}
+
+\newpage
+
+\section*{Tables}
+% Add this package to the Preamble \usepackage{booktabs}
+
+\begin{table}[htp] % (fold)
+\caption{Pithy caption.}
+%\label{tab:freqSnippets}
+\begin{center}
+\begin{tabular}{lc}
+\hline \\\\
+\multicolumn{1}{p{5cm}}{Category} & \multicolumn{1}{p{4.5cm}}{Number of snippets}\\\\
+\hline \\\\
+Alternate locators & 1 \\\\
+Change orientation & 3 \\\\
+Color scheme & 3 \\\\
+Electron density & 10 \\\\
+FileIO & 14 \\\\
+\hline \\\\
+\end{tabular}
+\end{center}
+\end{table}
+% table label (end)
+
+\end{document}
+$0

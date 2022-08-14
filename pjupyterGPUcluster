@@ -1,0 +1,24 @@
+# group: protocols
+# key: jupyterGPUcluster
+# name: Protocol to connect by to GPU cluster by Juptyer Notebook.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+As on schooner, I had created the required kernels.
+
+On local computer, enter the following command. Note the whitespace between the period right of the left quote.
+
+nohup ssh -f bmooers@mooers.hsc.net.ou.edu ". /home/bmooers/anaconda3/bin/activate;jupyter-notebook --no-browser --ip '*' --notebook-dir /home/bmooers"
+
+Check on the local computer the file nohup.out for the token.
+
+On the local computer, enter the following ssh command and login to the cluster:
+
+ssh -L 8892:127.0.0.1:8888 bmooers@mooers.hsc.net.ou.edu
+
+In the browser on the local computer, enter localhost:8892
+
+In the resulting password box, enter the token from the nohup.out file on the local computer.
+
+Best regards,
+
+Blaine

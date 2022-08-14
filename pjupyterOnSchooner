@@ -1,0 +1,70 @@
+# group: protocols
+# key: jupyterSchooner
+# name: Protocol to connect to Schooner by Juptyer Notebook.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+Protocol for running Jupyter notebook on schooner.
+Should be adaptable to Jupyter Lab.
+
+1) Add the following lines to your .bashrc file to activate the base env on login
+
+. /opt/oscer/software/Miniconda3/4.4.10/etc/profile.d/conda.sh
+conda activate
+
+2) Create a kernel for your conda env.
+Jupyter or at least ipykernel must be install in your conda env.
+The display-name is the name shown in the notebook.
+
+conda activate cryodrgn
+python -m ipykernel install --user --name cryodrgn --display-name "cryodrgn python3.7"
+
+Check for the presence of the kernel file by entering
+
+jupyter --data
+
+/home/bmooers/.local/share/jupyter
+
+This will return the path to the local jupyter library
+
+ls -ltr /home/bmooers/.local/share/jupyter/kernels
+
+
+
+3) Create a launchNotebook.sh slurm script.
+
+#!/bin/bash
+#launch jupyter
+
+#SBATCH -p mooerslab_extended_cpu
+#SBATCH -J classic
+#SBATCH --time 0:50:00
+#SBATCH -N 1 #total number of nodes and processes
+
+# Setup Environment
+source activate base
+
+export XDG_RUNTIIME_DIR=""
+
+jupyter notebook --no-browser --ip "*" \
+            --notebook-dir /home/bmooers
+
+4) chmod +x launchNotebook.sh
+
+5) Submit the jupyter notebook job to the queue.
+
+sbatch ./launchNotebook.sh
+
+6) cj # checkjobs. Once job is running, note the node that is being used.
+
+7) In another terminal on your local computer, enter the following. The first port number is on your local computer.
+
+ssh -L 8892:c398.oscer.ou.edu:8888  bmooers@schooner.oscer.ou.edu
+
+8) On your local computer, enter localhost:8892 in the browser.
+You will see a window for the password or token.
+
+9) On schooner, get the token from the *.sout file.
+Paste the token into the above password box.
+The jupyter notebook home page will open.
+Select the desired kernel to open a new netbook.
+Enter !ls to display the contents of your home directory on schooner.

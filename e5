@@ -1,6 +1,8 @@
 # This was cloned from a TextMate bundle for yasnippet.
 # contributor: Blaine Mooers bmooers1@gmail.com
 # group: enumeratedList
+# key: 5e
+# name: list of five item keys with the flanking enumerate environment.
 # --
 \begin{enumerate} % (fold)
 \item ${1:change me}

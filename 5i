@@ -1,0 +1,12 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: itemizedList
+# key: 5i
+# name: list of five item keys without the flanking environment. Use when augmenting an existing itemized list with fresh items.
+# --
+\item ${1:change me}
+\item ${2:change me}
+\item ${3:change me}
+\item ${4:change me}
+\item ${5:change me}
+$0

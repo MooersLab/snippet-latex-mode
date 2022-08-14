@@ -1,0 +1,7 @@
+# group: ManuscriptReviews
+# key: pGknott
+# name: Add PDBid to figure legend.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+Delta G is equal to zero for systems at equilibrium. The authors are actually reporting the standard state delta G values. The G's need a superscripted knott to denote them as standard state values.
+$0

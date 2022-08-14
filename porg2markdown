@@ -1,0 +1,6 @@
+# group: protocols
+# key: porg2markdown
+# name: Command to make move from markdown to org. 
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+pandoc --from=markdown --to=org -o testOutline.org xtallizationPlan.md

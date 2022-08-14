@@ -1,0 +1,7 @@
+# group: protocols
+# key: kernel
+# name: Protocol for creating Jupyter kernel
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name bmcp --display-name "Python3.9 (bmcp)"

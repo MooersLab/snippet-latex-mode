@@ -1,0 +1,10 @@
+# group: protocols
+# key: scp
+# name: Protocol for copying by scp multiple files without needing to enter password more than once.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+\subsection{Protocol for scp'ing multiple files without re-entering password after each transfer}
+
+\begin{minted}{bash}
+scp -pr mooers@smbcopy.slac.stanford.edu:/data/mooers/\{2662.tar,2684.tar,2659.tar,2660.tar\} .
+\end{minted}

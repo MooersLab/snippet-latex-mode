@@ -1,0 +1,9 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: subsections
+# key: sbi
+# name: numbered subsection with index tag
+# --
+\subsection{$1}
+\index{$2}
+$0

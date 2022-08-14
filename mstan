@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: mstan
+# name: minted environment for Stan, the MCMC based Bayeisan inference program. See code0, code1, and so on
+# --
+\index{$1}
+\begin{minted}{stan}
+${2:paste here}
+\end{minted}
+$0

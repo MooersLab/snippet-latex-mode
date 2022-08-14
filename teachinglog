@@ -1,0 +1,36 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: overleafLogFiles
+# key: teachingLog
+# name: Teaching log for writing projects on Overleaf .
+\documentclass[10pt,letterpaper]{article}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+\usepackage{datetime2}
+\usepackage{minted}
+\usepackage{ulem}
+\usepackage{spreadtab}
+\makeindex
+
+\title{Teaching Log for ${1:PyMOL workshop in the Methods} course}
+\author{Blaine Mooers}
+
+\begin{document}
+\maketitle
+
+\section{Purpose of this docment}
+
+A place to reflect on how lectures went and to make plans for lecture next year.
+The reflecting may take two or more hours.
+
+
+\section{${2:8 August 2022}}
+${3:Start reflections and plans}
+${0}
+
+\end{document}

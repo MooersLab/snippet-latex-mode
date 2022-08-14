@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: mjl
+# name: Simple minted environment for Julia. See code0, code1, and so on
+# --
+\index{$2}
+\begin{minted}{julia}
+${1:paste here}
+\end{minted}
+$0

@@ -1,0 +1,7 @@
+# group: protocols
+# key: condakernel
+# name: Command to make a new jupyter kernel for a conda env. 
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+# Change the name to that of the conda env and change the display-name to something meaninful in a year.
+python -m ipykernel install --user --name pytorch --display-name "pytorch python3.9"

@@ -1,6 +1,7 @@
 # This was cloned from a TextMate bundle for yasnippet.
 # contributor: Blaine Mooers bmooers1@gmail.com
 # group: enumeratedList
+# key: e7
 # --
 \begin{enumerate} % (fold)
 \item ${1:change me}

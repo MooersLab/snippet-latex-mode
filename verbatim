@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: verbatim
+# name: verbatim environment
+# --
+\index{$1}
+\begin{verbatim}
+${2:paste here}
+\end{verbatim}
+$0

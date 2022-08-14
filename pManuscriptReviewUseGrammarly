@@ -1,0 +1,10 @@
+# group: ManuscriptReviewerComments
+# key: usegrammarchecker
+# name: Comment for manuscirpt review suggest use of grammer checkers.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+The written English shows good adherence to the proper use of punctuation, but I found numerous errors in word choice and some missing articles (e.g., "the").
+Errors of this nature can be detected with many grammar checkers (E.g., Grammarly, Writeful, LanguageTool, and so on). 
+Some of these grammar checkers have plugins for word processors or extensions in webbrowsers for editing text in text box on webpages, including on-line editors like Overleaf. 
+Nonetheless, I recommend using at least two of these tools because they are complementary in nature.
+

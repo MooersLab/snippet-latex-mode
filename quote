@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key:quote
+# name: quote environment
+# --
+\index{$1}
+\begin{quote}
+${2:paste here}
+\end{quote}
+$0

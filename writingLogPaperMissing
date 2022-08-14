@@ -1,0 +1,182 @@
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: overleafLogFiles
+# key: writingLogMissing
+# name: Missing parts of the Writing log for writing projects on Overleaf .
+
+
+% Insert between start of document and exiting writing log.
+
+\section{Why am I writing this paper?}
+
+What is the rationale for writing this paper?
+
+${2:To help advance the field. To help win or renew a grant.}
+
+
+\section{{Related projects}
+
+\begin{itemize}
+\item ${3:change me}
+\item ${4:change me}
+\item ${5:change me}
+\item ${6:change me}
+\end{itemize}
+
+
+
+
+\section{Potential Journals}
+
+\begin{itemize}
+\item Nature Methods (possible if I focus on supporting Jupyter and Colab and making forms for Colab Notebooks)
+\item Structure
+\item J of Appl Crystallography
+\item J of Molecular Biology
+\item Acta Cryst. Section D
+\item Acta Cryst. Section A
+\item Structural Dynamics
+\item Protein Science
+\item Biophysical Journal
+\item Computing in Science and Engineering
+\item Bioinformatics
+\item NAR
+\item Journal of Applied Crystallography
+\item Protein Science 2023
+\item Computers in Engineering and Science
+\item Structural Biology
+\item Structure
+\item Acta Cryst Section D
+\item Computational and Structural Biotechnology Journal, 7.3
+\item Data in Brief
+\item SoftwareX    
+\item MethodsX
+\item Computational and Theoretical Chemistry, 1.9
+\item Computational Biology and Chemistry, 2.8    
+\item Journal of Molecular Graphics and Modelling, 2.5
+\item SoftwareX, NaN  
+\item Computers and Geosciences, 3.4
+\item Journal of Computational Science, 4.0
+\item CAD Computer Aided Design, 3.0    
+\item Computers and Education Open, no APC
+\item Graphics \& Visual Computing,
+\item Progress in Biophysics and Molecular Biology, 3.7    
+\item Computational Geometry: Theory and Applications
+\item Science of Computer Programming, 0.8
+\item Computer Aided Geometric Design, 1.3    
+\item Progress in Nuclear Magnetic Resonance Spectroscopy. 9.7
+\item The FEBS Journal, 5.5
+\item Biochemistry and Molecular Biology Education, 1.2
+\item Journal of Computational Chemistry, 3.4
+\item Biochemistry and Molecular Biology Education
+\item Computer Graphics Forum
+\item J. of Molecular Graphics and Modeling
+\item Crystals
+\item International Journal of Molecular Science
+\item Structure Opinion in Structural Biology
+\item Structural Biology
+\item Structure    
+\item RNA
+\item Protein Science
+\end{itemize}
+
+
+\section{Potential Titles}
+
+\begin{itemize}
+\item ${7:change me}
+\item ${8:change me}
+\item ${9:change me}
+\item ${10:change me}
+\end{itemize}
+
+\section{Potential Keywords}
+
+\begin{itemize}
+\item ${11:change me}
+\item ${12:change me}
+\item ${13:change me}
+\item ${14:change me}
+\item ${15:change me}
+\item ${16:change me}
+\item ${17:change me}
+\item ${18:change me}
+\item ${19:change me}
+\item ${20:change me}
+\end{itemize}
+
+
+\section{Potential Internal Reviewers}
+
+\begin{itemize}
+\item ${21:change me}
+\item ${22:change me}
+\item ${23:change me}
+\item ${24:change me}
+\item ${25:change me}
+\end{itemize}
+
+
+\section{Potential External Reviewers}
+
+\begin{itemize}
+\item ${26:change me}
+\item ${27:change me}
+\item ${28:change me}
+\item ${29:change me}
+\item ${30:change me}
+\item ${31:change me}
+\item ${32:change me}
+\item ${33:change me}
+\item ${34:change me}
+\item ${35:change me}
+\item ${36:change me}
+\item ${37:change me}
+\item ${38:change me}
+\item ${39:change me}
+\item ${40:change me}
+\end{itemize}
+
+
+\section{Potential Competitors}
+
+\begin{itemize}
+\item ${41:change me}
+\item ${42:change me}
+\item ${43:change me}
+\item ${44:change me}
+\item ${45:change me}
+\end{itemize}
+
+
+
+\section{Potential Collaborators}
+
+\begin{itemize}
+\item ${46:change me}
+\item ${47:change me}
+\item ${48:change me}
+\item ${49:change me}
+\item ${50:change me}
+\end{itemize}
+
+
+\section{Related Grant Application Specific Aims}
+
+\begin{itemize}
+\item ${51:change me}
+\item ${52:change me}
+\item ${53:change me}
+\item ${54:change me}
+\item ${55:change me}
+\end{itemize}
+
+
+
+
+\section{Draft Introduction}
+
+
+
+\section{Draft Abstract}
+
+

@@ -1,0 +1,32 @@
+# group: protocols
+# key: shelxd
+# name: Protocol for setting up and running shelxd jobs on Schooner
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+\subsection{Protocol for setting up and running shelxd jobs on Schooner}
+
+\begin{enumerate}
+\item mkdir 2663recShelx in your home directory
+\item cd 2663recShelx
+\item copy  2695p2shelx.sbatch, 2695p2.ins, mtz2shelx.com to the current directory. Also copy the mtz file.
+\item Edit mtz2shelx.com resolution limits and wavelength. 
+\item Enter 'module load ccp4/7.0.075' so that you can run mtz2various.
+\item Run ./mtz2shelx.com. You will need the resolution limits and the unit cell parameters that are written to the screen.
+\item mv 2695p2.ins to stemHKLfilename.ins
+\item edit 2663rec.ins
+\begin{enumerate}
+  \item  TITL stemHKLfilename
+  \item Edit ZERR
+  \item Insert wavelength and unit cell parameters
+  \item Go to \url{https://cci.lbl.gov/cctbx/shelx.html} to get LATT and SYMM cards via SG number via the webb app.
+  \item Edit the SHEL card by entering the resolution range
+  \item Edit the SFAC and UNIT lines. This information can be derived from the record in the sir file or run ccp4's rwcontents on a related PDB file to get number of atoms by element in the asu. Multiply by the number of ASUs.
+  \item Adjust PLOP as needed
+\end{enumerate}
+\item Edit the *.sbatch file. In vim, use :\%s/2695p2/2663rec/g to do global search and replace. 
+\item  Submit job with sbatch ./2663rec.sbatch.
+\item  Check that job is running with cj
+\item  Check the 2663rec.lst and 2663rec.pdb files in Vim or via tail -500 or head -500.
+\end{enumerate}
+$0
+

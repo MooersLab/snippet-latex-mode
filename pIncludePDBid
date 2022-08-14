@@ -1,0 +1,6 @@
+# group: ManuscriptReviews
+# key: pIncludePDBid
+# name: Add PDBid to figure legend.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+The molecular structure in the figure needs the associated PDB-ID and the citation of the paper describing the structure.

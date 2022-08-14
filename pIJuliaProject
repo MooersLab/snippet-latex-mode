@@ -1,0 +1,18 @@
+# group: protocols
+# key: pIJuliaProject
+# name: Protocol for setting up and running running IJulia in an isolated Julia project downloaded from GitHub
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+\subsection{Setting up and running IJulia in an isolated Julia project downloaded from GitHub}
+
+\begin{enumerate}
+\item git clone the project
+\item cd to the directory
+\item julia --project
+\item ] instantiate
+\item ] status
+\item C-c
+\item using IJula
+\item notebook(dir=pwd())
+\item navigate to the notebook in your browser
+\end{enumerate}

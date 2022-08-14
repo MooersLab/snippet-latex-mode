@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: mR
+# name: Simple minted environment for R. See code0, code1, and so on
+# --
+\index{$2}
+\begin{minted}{R}
+${1:paste here}
+\end{minted}
+$0

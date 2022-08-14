@@ -1,0 +1,56 @@
+# group: letters
+# key: letOfRec
+# name: Letter of recommendation.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+% !TEX TS-program = pdflatex -shell-escape
+% Cmd-R in TextMate compiles
+% Control-shift-N in TextMate gives the word count
+% C-c C-a compiles and opens PDF in Emacs
+% C-c C-l in emacs reveals the error messages when compiling fails.
+\documentclass[letterpaper,11pt]{letter}
+\usepackage{graphicx, fullpage}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{  \includegraphics[scale=0.79]{~/images/depthead.png}  }
+
+%\cfoot{  (\includegraphics [width=\textwidth] {~/images/foot.png})  }
+ \definecolor{crimson}{RGB}{220,20,60}
+\cfoot{  \small \color{crimson}Biomedical Research Center, Room 466, 975 NE 10th St, Oklahoma City, Oklahoma 73104 \\
+Office:  (405) 271-8300  Lab:   (405) 271-8313  FAX:  (405) 271-3910 \\
+blaine-mooers@ouhsc.edu   \\
+http://www.oumedicine.com/department-of-biochemistry-and-molecular-biology}
+% Some of the article customisations are relevant for this class
+
+% Alternatively, these may be set on an individual basis within each letter environment.
+%  end of preamble
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\footrule}{\color{crimson}}
+\headheight 100pt              %% put this outside
+\headsep 10pt                 %% put this outside
+\textheight 560pt
+\begin{document}
+\begin{letter}
+
+\date{\today}
+
+RE: Letter of recommendation for ${1:Francis Acquah}
+
+Dear 2\${2:Ian},
+
+${3:Start here}
+
+{Best regards,} \\\\
+{\includegraphics[width=70mm]{~/images/signature.png}}\\\\ 
+{Blaine H. M. Mooers, PhD, \\\\
+Associate Professor of Biochemistry and Molecular Biology}
+%\cc{Josh Packard} % people this letter is cc-ed to
+%\encl{} % list of anything enclosed
+%\ps{} % any post scriptums. ``PS'' labels must be put in manually
+\end{letter}
+\end{document}
+

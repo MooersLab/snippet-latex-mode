@@ -1,0 +1,8 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# name: SCC affilitation for Springer-Nature
+# group: affiliations
+# key: afsn2
+# --
+\affil[2]{\orgdiv{Peggy and Charles Stephenson Cancer Center}, \orgname{University of Oklahoma Health Sciences Center}, \orgaddress{\street{800 NE 10th St.}, \city{Oklahoma City}, \postcode{73401}, \state{Oklahoma}, \country{USA}}}
+$0

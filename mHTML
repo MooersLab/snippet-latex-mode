@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: mHTML
+# name: Simple minted environment for HTML. See code0, code1, and so on
+# --
+\index{$2}
+\begin{minted}{html}
+${1:paste here}
+\end{minted}
+$0

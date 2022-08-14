@@ -1,0 +1,26 @@
+# group: reviewerComments
+# key: usegrammarchecker
+# name: Comment for manuscirpt review suggest use of grammer checkers.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+% !TEX TS-program = pdflatex -shell-escape
+% Cmd-R in TextMate compiles
+% Control-shift-N in TextMate gives the word count
+% C-c C-a compiles and opens PDF in Emacs
+% C-c C-l in emacs reveals the error messages when compiling fails.
+
+\section{Protocol for shipping crystals in Dewars}
+
+\begin{itemize}
+\item Order RNA 2-3 weeks in advance
+\item Start setups 2-3 months in advance
+\item Remove all labels from travel dewar
+\item Fill out FEDEX shipping form
+\item Fill out on-line shipping form at SSRL, print, and attach to dewar
+\item Takes 6 hours to load 112 crystals in seven unipucks with two people. 
+\item Could take 12 hours with for one person.
+\item See proptocol for loading unipucks.
+\item Drop off dewar at FEDEX within one hour of closing. 
+\item Setup crystal spreadsheet for of crystals.
+\end{itemize}
+$0

@@ -1,5 +1,8 @@
-# contributor: Blaine Mooers bmooers1@gmail.com
+# -*- mode: snippet -*-
+# name: daily header for diary file with 7 item to do list
 # group: todoList
+# key: t7
+# contributor: Blaine Mooers bmooers1@gmail.com
 # --
 \begin{todolist} % (fold)
 \item ${1:change me}

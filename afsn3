@@ -1,0 +1,8 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# name: LBSF affilitation for Springer-Nature
+# group: affiliations
+# key: afsn1
+# --
+\affil[3]{\orgdiv{Laboratory of Biomolecular Structure and Function}, \orgname{University of Oklahoma Health Sciences Center}, \orgaddress{\street{975 NE 10th St., BRC 472}, \city{Oklahoma City}, \postcode{73401}, \state{Oklahoma}, \country{USA}}}
+$0
