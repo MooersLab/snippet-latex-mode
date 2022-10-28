@@ -1,0 +1,58 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: tables
+# name: SWOT analysis table
+# key: swot 
+# --
+%
+\begin{table*}[h]
+\begin{center}
+\caption{SWOT analysis for FILL IN HERE.}
+    \begin{tabular}{|p{220pt}|p{220pt}|}
+        \hline \bfseries Strengths &\bfseries Weaknesses  \\\hline 
+        {\parbox{0.45\textwidth}{
+            \begin{itemize}                    
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \end{itemize} }}
+                & 
+                {\parbox{0.45\textwidth}{
+            \begin{itemize}                    
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \end{itemize} }}\\
+        \hline \bfseries Opportunities &\bfseries Threats \\\hline 
+        {\parbox{0.45\textwidth}{
+            \begin{itemize}                    
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \end{itemize} }}
+                & 
+                 {\parbox{0.45\textwidth}{
+            \begin{itemize}           
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+                \item 
+            \end{itemize} }} \\\hline
+   \end{tabular}
+ \end{center}  
+ \end{table*}
