@@ -1,3 +1,6 @@
-# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# key: furl
+# group: urls
+# name: Send a url to a footnote.
 # --
 \footnote{\url{${1:http}}}. $0
