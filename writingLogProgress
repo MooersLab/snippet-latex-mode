@@ -2,7 +2,7 @@
 # group: overleafLogFiles
 # key: writingLogProgress
 # name: Writing Log Progress. Includes code in LaTeX to plot writing progress from an external file called wordcount.txt.
-
+# --
 % Insert after the Next Action List.
 \section{Writing progress}
 
