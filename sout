@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Wrap selected text in a strikeout env (sout from the ulem package).
+# key: sout
+# --
+\sout{`yas/selected-text`}$0
