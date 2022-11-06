@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: envs
+# key: fvrb
+# name: fancy verbatim environment
+# --
+\index{${1:Replace this index key.}}
+\label{${2:Replace this label.}}
+\begin{Verbatim}[numbers=on, frame=single]
+${3:paste code here}
+\end{Verbatim}
+$0
