@@ -1,33 +1,28 @@
 # This was cloned from a TextMate bundle for yasnippet.
 # contributor: Blaine Mooers bmooers1@gmail.com
 # group: tables
+# key: r5c5
+# name: Booktab r5c5 tables. 
 # --
 % Add this package to the Preamble \usepackage{booktabs}
-\begin{table}[htp] % (fold)
+\begin{table}[htp]
 \caption{${1:Python script to find lost bytes.}}
 \index{${2:copying and pasting code!lost bytes}}
 \label{tab:${3:label}}
 \begin{center}
-    \begin{tabular}{lcccc}
-%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
-        \toprule
-                         &
-        ${4:LongHeader1} &
-        ${5:LongHeader2} &
-        ${6:LongHeader3} &
-        ${7:LongHeader4} \\\\
-        \multicolumn{1}{l}{Parameters} &
-        \multicolumn{1}{c}{(${8:unit1})} &
-        \multicolumn{1}{c}{(${9:unit2})} &
-        \multicolumn{1}{c}{(${9:unit3})} &
-        \multicolumn{1}{c}{(${10:unit4})} \\\\ \midrule
-        ${11:Item1} & ${12:X11} & ${13:X12} & ${14:X13} & ${15:X13}\\\\
-        ${16:Item2} & ${17:X21} & ${18:X22} & ${19:X23} & ${20:X23}\\\\
-        ${21:Item3} & ${22:X31} & ${23:X32} & ${24:X33} & ${25:X33}\\\\
-        ${26:Item4} & ${27:X41} & ${28:X42} & ${29:X43} & ${30:X43}\\\\
-        ${31:Item5} & ${32:X51} & ${33:X52} & ${34:X53} & ${35:X53}\\\\ \bottomrule
-    \end{tabular}
+\begin{tabular}{lcccc}
+% \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+\toprule
+  & ${4:LongHeader1} & ${5:LongHeader2} & ${6:LongHeader3} & ${7:LongHeader4} \\\\
+\multicolumn{1}{l}{Parameters} & \multicolumn{1}{c}{(${8:unit1})} & \multicolumn{1}{c}{(${9:unit2})} & \multicolumn{1}{c}{(${9:unit3})} & \multicolumn{1}{c}{(${10:unit4})} \\\\
+\midrule
+${11:Item1} & ${12:X11} & ${13:X12} & ${14:X13} & ${15:X13}\\\\
+${16:Item2} & ${17:X21} & ${18:X22} & ${19:X23} & ${20:X23}\\\\
+${21:Item3} & ${22:X31} & ${23:X32} & ${24:X33} & ${25:X33}\\\\
+${26:Item4} & ${27:X41} & ${28:X42} & ${29:X43} & ${30:X43}\\\\
+${31:Item5} & ${32:X51} & ${33:X52} & ${34:X53} & ${35:X53}\\\\
+\bottomrule
+\end{tabular}
 \end{center}
 \end{table}
-% table (end)
 $0
