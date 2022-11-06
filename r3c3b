@@ -1,0 +1,28 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: tables
+# name: Booktabs table with 3 rows and 3 columns.
+# key: r3c3b
+# --
+\begin{table}[htp]
+\caption{${1:This is a test.}}
+\label{${2:The built-in families of distributions.}}
+\begin{center}
+\begin{tabular}{lll}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+\toprule
+${3:Family name}  & 
+${4:Response distribution}  & 
+${5:Default link} \\\\ 
+\multicolumn{1}{c}{(unit1)} & 
+\multicolumn{1}{c}{(unit1)} & 
+\multicolumn{1}{c}{(unit2)} \\\\\
+\midrule
+${6:gaussian} & ${7:Normal} & ${8:identity} \\\\
+${9:bernoulli} & ${10:Bernoulli} & ${11:logit} \\\\
+${12:poisson} & ${13:Poisson} & ${14:log} \\\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+${0}
