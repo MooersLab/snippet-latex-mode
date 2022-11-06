@@ -1,27 +1,24 @@
 # This was cloned from a TextMate bundle for yasnippet.
 # contributor: Blaine Mooers bmooers1@gmail.com
 # group: tables
+# name: Booktabs table with 3 rows and 3 columns.
+# key: r3c3
 # --
 % Add this package to the Preamble \usepackage{booktabs}
-\begin{table}[htp] % (fold)
-\caption{${1:Python script to find lost bytes.}}
-\index{${2:copying and pasting code!lost bytes}}
-\label{tab:${3:label}}
+\begin{table}[htp]
+\caption{${1:Booktabs table with 3 rows and 3 columns.}}
+\index{${2:table!r3c3}}
+\label{tab:${3:table}}
 \begin{center}
-    \begin{tabular}{lcc}
-%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
-        \toprule
-						&
-        ${5:LongHeader2} &
-        ${6:LongHeader3} \\\\
-        \multicolumn{1}{c}{Parameters} &
-        \multicolumn{1}{c}{(${7:unit1})} &
-        \multicolumn{1}{c}{(${8:unit2})} \\\\ \midrule
-        ${10:Item1}   & ${11:X11}  & ${12:X12} \\\\
-        ${11:Item2}   & ${11:X21}  & ${12:X22} \\\\
-        ${12:Item3}   & ${11:X31}  & ${12:X32}  \\\\ \bottomrule
-    \end{tabular}
+\begin{tabular}{lcc}
+\toprule
+${4:LongHeader1} & ${5:LongHeader2} & ${6:LongHeader3} \\\\
+\midrule
+   ${10:Item1}   & ${11:X11}  & ${12:X12} \\\\
+   ${13:Item2}   & ${14:X21}  & ${15:X22} \\\\
+   ${16:Item3}   & ${17:X31}  & ${18:X32} \\\\
+\bottomrule
+\end{tabular}
 \end{center}
 \end{table}
-% table (end)
-$0
+${0}
