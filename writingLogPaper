@@ -2,6 +2,7 @@
 # group: overleafLogFiles
 # key: writingLogPaper
 # name: Writing log for writing projects on Overleaf .
+# --
 \documentclass[10pt,letterpaper]{article}
 %\usepackage[latin1]{inputenc}
 \usepackage{amsmath}
@@ -64,7 +65,7 @@ What is the rationale for writing this paper?
 ${2:To help advance the field. To help win or renew a grant.}
 
 
-\section{{Related projects}
+\section{Related projects}
 
 \begin{itemize}
 \item ${3:change me}
@@ -72,8 +73,6 @@ ${2:To help advance the field. To help win or renew a grant.}
 \item ${5:change me}
 \item ${6:change me}
 \end{itemize}
-
-
 
 
 \section{Potential Journals}
