@@ -7,13 +7,12 @@
 % \usepackage{caption};
 % \DeclareCaptionType{eqc}[][]
 % %\captionsetup[eqc]{labelformat=empty}
-\label{eq:${1:nameOfEquation}} % (fold)
+\label{eq:${1:nameOfEquation}}
 \index{${2:nameOfEquation}}
-\begin{eqc}
+\begin{eqc}[htp]
 \begin{equation}
 ${3:enter equation here}
 \end{equation}
-\caption{${4:Caption of the equation}}
+\caption{Eq. \ref{${1:nameOfEquation}}: ${4:Caption of the equation}}
 \end{eqc}
-% eqc (end)
 $0
