@@ -4,18 +4,21 @@
 # name: This is an unnumbered list for today's To Be Dones
 # --
 
-\subsection{Last night}
+\subsection{Yesterday's accomplishments}
 ${1:change me}
 
 
-\subsection{This morning}
+\subsection{Last night}
 ${2:change me}
+
+
+\subsection{This morning}
+${3:change me}
 
 
 \subsection{To Be Done Today}
 \index{To Be Done!`(format-time-string "%Y-%m-%d")`}
 \begin{itemize}
-\item ${3:change me}
 \item ${4:change me}
 \item ${5:change me}
 \item ${6:change me}
