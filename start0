@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# key: start0
+# name: Lists for the start of the day.
+# --
+
+\subsection{This morning}
+${1:change me}
+
+\subsection{Yesterday's accomplishments}
+${2:change me}
+
+\subsection{Last night}
+${3:change me}
+
+
+\subsection{To Be Done Today}
+\index{To Be Done!`(format-time-string "%Y-%m-%d")`}
+\begin{itemize}
+\item ${4:change me}
+\item ${5:change me}
+\item ${6:change me}
+\item ${7:change me}
+\item ${8:change me}
+\item ${9:change me}
+\item ${10:change me}
+\item ${11:change me}
+\item ${12:change me}
+\end{itemize}
+${0}
