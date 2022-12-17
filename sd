@@ -1,0 +1,77 @@
+# -*- mode: snippet -*-
+# name: sd
+# key: sd
+# --
+\subsection{Deadlines}
+
+\begin{itemize}
+\item December 12-14 NISBRE https://nisbre2022.vfairs.com/en/abstract-page
+\item December 15 JuptyerCon2023 abstract finalize
+\item December 16 17:00 EAC report
+\item January 4 COBRE EAC rehearsal
+\item January 10 EAC meeting
+\iten January 11 CCN article due
+\item January 31 Department annual review 
+\item February 2-6 BL 9-2 May beam time
+\item February 16-17 BL 9-2 Len's beam time
+\item February 21 IUCr abstract (see ``Thank you Crystallography Community!'')
+\item March 1 NIH Reviews
+\end{itemize}
+
+
+\subsection{This morning}
+${1:change me}
+
+\subsection{Yesterday's accomplishments}
+${2:change me}
+
+
+\subsection{Last night}
+${3:change me}
+
+
+
+\subsection{Unfilled obligated writing projects}
+
+\begin{itemize}
+\item 403 PyMOL in RStudio
+\item 3229 ACA 2022 Aug 1 0930-1000 Easing script writing on Google Colab with structural biology snippets
+\item 3212 ACA 2021 Aug 3 1300-1330 Literate programming with CCTBX and PyMOL in Jupyter notebooks
+\item 438 Unified Crystallographic Computing in Colab (related to ACA 2022)
+\item 4050 Direct methods of RNA in the presence of translational pseudosymmetry, GRC 2018
+\item 
+\end{itemize}
+
+
+
+\subsection{Active writing projects}
+
+\begin{itemize}
+\item 018 due November 1
+\tiem 523RNAdrugCrystallization December 1
+\item 3227 JupyterCon 2023 May 10-12 Jupyter for crystallographic computing in protein crystallography (see TBD list, items due Dec. 15th)
+\item 026 CCN 2023 Due Jan. 11
+\item 408 Native phosphate SAD phasing of dsRNA,
+\item IUCr abstract Feb. 21
+\item ACA abstract Mar. 31
+\item 3243 emacsconf23 Sept. 21
+\item 
+\item 
+\end{itemize}
+
+
+
+\subsection{To Be Done Today}
+\index{To Be Done!`(format-time-string "%Y-%m-%d")`}
+\begin{itemize}
+\item ${4:change me}
+\item ${5:change me}
+\item ${6:change me}
+\item ${7:change me}
+\item ${8:change me}
+\item ${9:change me}
+\item ${10:change me}
+\item ${11:change me}
+\item ${12:change me}
+\end{itemize}
+${0}
